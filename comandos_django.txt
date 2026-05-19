@@ -1,0 +1,11 @@
+[instalação do django]
+pip install django
+
+[Criando o projeto django]
+django-admin startproject meu_site .
+
+[Criando um APP django]
+python manage.py startapp agenda
+
+[Executando o servidor django]
+python manage.py runserver
