@@ -18,3 +18,6 @@ python manage.py migrate
 
 [Criando superuser no admin]
 python manage.py createsuperuser
+
+[Resetando a senha do usuario]
+python manage.py changepassword your_superuser_username
