@@ -9,3 +9,12 @@ python manage.py startapp agenda
 
 [Executando o servidor django]
 python manage.py runserver
+
+[Fazendos as migrações]
+python manage.py makemigrations agenda
+
+[Executando as migrações]
+python manage.py migrate
+
+[Criando superuser no admin]
+python manage.py createsuperuser
